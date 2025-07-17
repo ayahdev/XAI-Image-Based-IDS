@@ -1,6 +1,6 @@
 # XAI-Image-Based-IDS
 
-This GitHub repository contains the code used in the research work titled: Towards understanding the behavior of image-based network intrusion detection systems.
+This repository contains the code used in the research work titled: Towards understanding the behavior of image-based network intrusion detection systems.
 
 Code explanation:
 
