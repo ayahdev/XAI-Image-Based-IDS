@@ -11,9 +11,11 @@ Step 1: Generate grey-scale images.
 Step 2: Train a CNN model on the 32x32 grey-scale images.
 
 Step 3: Generate heatmaps using the trained model.
+
 *_3_gradcam_heatmap_generation.ipynb_* --- This notebook is used to generate heatmaps using the greyscale images and the trained model. Set the paths in the block titled "Loading Model and Settings Paths".
 
 Step 4: Applying the reverse lookup technique.
+
 *_4_reverse_lookup_single_file.ipynb_* --- This notebook contains the various functions used to perform a reverse lookup on the heatmaps and understand the highly impacting bytes to the model's decisions. The default color of the highly impacting bytes set in the file is Yellow based on the Viridis color scale. 
 
 To use this notebook:
