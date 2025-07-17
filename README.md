@@ -5,6 +5,7 @@ This GitHub repository contains the code used in the research work titled: Towar
 Code explanation:
 
 Step 1: Generate grey-scale images.
+
 *_1_session_to_image.ipynb_* --- The code in this notebook references https://github.com/davidyslu/USTC-TK2016/blob/master/3_Session2Png.py. It takes the session in the .pcap format and converts it to 32x32 grey-scale images. Set the file paths in the block titled "Converting Pcap Sessions to Images". Set the ethernet version in the *ethernet_version* list as such; to keep the Ethernet layer, set the list to [1,0,0]. To replace the Ethernet layer with 0s, set it to [0,1,0]. To completely remove the Ethernet layer, set it to [0,0,1].
 
 Step 2: Train a CNN model on the 32x32 grey-scale images.
