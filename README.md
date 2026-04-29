@@ -27,4 +27,4 @@ To use this notebook:
 6. If using the Viridis scale, then keep the color values in the block titled "Defining Functions" in the _binary_mask_generation_ function the same. However, if you would like to perform the reverse lookup on bytes of different importance, hence, have a different color, change the variables _lower_yellow_threshold_ and _upper_yellow_threshold_ accordingly.
 7. In block "Doing Reverse Lookup for Session", adjust the _index_of_name_in_path_ according to the path of the grey-scale image that was set in the block "Loading Model and Setting Paths". This is the make sure that all the files generated from this notebook have the correct file name. For instance, if the path for the grey-scale session image is as follows: "C:\\Desktop\\Folder_1\\session_1.png", then the _index_of_name_in_path_ should be set to 3 ( start count from 0, and split on \\ ).
 
-Thank you for checking this work, and kindly cite our work at [__](https://doi.org/10.1016/j.jnca.2025.104254).
+Thank you for checking this work, and kindly cite our work at https://doi.org/10.1016/j.jnca.2025.104254.
